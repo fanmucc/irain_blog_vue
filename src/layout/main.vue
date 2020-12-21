@@ -3,10 +3,21 @@
         <header>
             <HeaderTab :logo="logo" slogan="每天多吃一点点"></HeaderTab>
         </header>
-        <main style="height: 150vh">
-            我是{{msg}}
+        <main >
+            <div class="container" style="position: relative;">
+                <div class="label">
+                    标签
+                </div>
+                <div class="main">
+                    我是{{msg}}
+                </div>
+                <div class="user-msg">
+                    user message
+                </div>
+            </div>
+            
         </main>
-        <footer>我是网站备案信息位置</footer>
+        <footer style="text-align: center;">我是网站备案信息位置</footer>
     </div>
 </template>
 <script lang="ts">
@@ -41,6 +52,32 @@ export default {
         box-shadow: 0 2rpx 0 0 rgba(240,240,240,1);
     }
     main {
-        margin-top: 64px;
+        
+        margin-top: 80px;
+    }
+    .main {
+        position: absolute;
+        box-sizing: border-box;
+        left: 20%;
+        top: 0;
+        width: 60%;
+        background: #fff;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .label, .user-msg {
+        position: absolute;
+        width: 10%;
+        background: #fff;
+    }
+    .label {
+        left: 10%;
+    }
+    .user-msg {
+        right: 10%;
+    }
+
+    .container {
+        min-height: calc(100vh - 120px);
     }
 </style>
