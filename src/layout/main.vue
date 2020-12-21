@@ -50,6 +50,7 @@ export default {
         height: 64px;
         width: 100%;
         box-shadow: 0 2rpx 0 0 rgba(240,240,240,1);
+        z-index: 10;
     }
     main {
         
@@ -78,6 +79,6 @@ export default {
     }
 
     .container {
-        min-height: calc(100vh - 120px);
+        min-height: calc(100vh - 0px);
     }
 </style>
