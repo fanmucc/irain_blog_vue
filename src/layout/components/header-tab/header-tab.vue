@@ -9,17 +9,13 @@
                 
             </div>
             <div class="web_header_rg">
-                <nav>
-                    <ul>
-                        <li>首页</li>
-                    </ul>
-                    <ul>
-                        <li>前端</li>
-                    </ul>
-                    <ul>
-                        <li>插件</li>
-                    </ul>
-                </nav>
+                <ul class="nav_list">
+                    <li class="active">首页</li>
+                    <li>前端使用测</li>
+                    <li>插件</li>
+                    <li>前端使用测</li>
+                    <li>插件</li>
+                </ul>
             </div>
         </div>
         <div class="iphone_header">

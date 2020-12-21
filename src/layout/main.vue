@@ -13,7 +13,7 @@
 import HeaderTab from './components/header-tab'
 
 // 引入图片资源
-import logoMin from '../assets/logo-min.jpg'
+import logoMin from '../assets/logo-min.jpg';
 
 import { ref, Ref } from 'vue'
 export default {

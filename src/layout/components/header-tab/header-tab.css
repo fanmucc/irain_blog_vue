@@ -32,3 +32,35 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
+.web_header_rg {
+    height: 100%;
+}
+
+.nav_list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+}
+.nav_list li {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    font-weight: 500;
+    padding: 0 1rem 0 0;
+    height: 100%;
+    font-size: 1.16rem;
+}
+
+.nav_list li:hover {
+    position: relative;
+    cursor: grab;
+    color: #2d8cf0;
+}
+
+.active {
+    color: #2d8cf0;
+}
